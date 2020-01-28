@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Dosis|Oswald|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Your own CSS -->
+    <link rel="stylesheet" href="analytics.css">
+
+    <title>Datalytics!</title>
+</head>
+
+<body>
+    <!-- Your stuff goes here -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Datalytics<i class="fas fa-cog fa-spin"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="mike_hw1.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="finance_page.html">Finance & Economy</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sports
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="basketball_tab.html">Basketball</a>
+
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-nav ml-auto">
+                <a class="btn btn-outline-info" href="give_data.html">Give Me Your Data</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron_basketball jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Basketball</h1>
+            <p class="lead">Like Moneyball, but not really.</p>
+        </div>
+    </div>
+
+    <div class="container-xl">
+        <div row lg-12>
+            <div class="col-md-12 text-center" style="text-align: center;">
+                <h2>
+                    NBA Standings
+                </h2>
+            </div>
+        </div>
+
+        <div row xl-12>
+            <div class="col-xl-12 text-center" style="text-align: center;">
+                <script type="text/javascript" style="text-align: center;"
+                    src="https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_2020_standings.html&div=div_expanded_standings"></script>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-xl">
+        <div row lg-12>
+            <h2>
+                NBA Team Stats Per Game
+            </h2>
+        </div>
+
+        <div row xl-12>
+            <div class="col-xl-12 text-center">
+                <script type="text/javascript"
+                    src="https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_2020.html&div=div_team-stats-per_game"></script>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div row mt-12>
+            <h2>
+                Basketball-Reference's Live MVP Tracker
+            </h2>
+        </div>
+
+        <div row xl-12>
+            <div class="col-xl-12 text-center">
+
+                <script type="text/javascript"
+                    src="https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Ffriv%2Fmvp.html&div=div_players"
+                    &max_rows=11></script>
+            </div>
+        </div>
+
+    </div>
+
+    <h2>
+        Here is the best content you will find on the internet: Joel Embiid talking trash.
+    </h2>
+
+    <div class="twitterborder">
+        <div class="table">
+            <div class="table-cell">
+                <a class="twitter-timeline tw-align-center" data-width='400' ,data-height='300'
+                    href="https://twitter.com/JoelEmbiid?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by
+                    JoelEmbiid</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div>
+            <h2>Other Basketball Links</h2>
+        </div>
+        <div class="row mt-6">
+            <div class="col-sm-4 text-center">
+                <h1><i class="fas fa-basketball-ball"></i></h1>
+                <h5><a href="https://www.nba.com/" target="_blank">NBA.com</a></h5>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <h1><i class="fas fa-bell"></i></h1>
+                <h5><a href="https://www.theringer.com/nba" target="_blank">The Ringer</a></h5>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <h1><i class="fas fa-chart-pie"></i></h1>
+                <h5><a href="https://hoopshype.com/" target="_blank">Hoops Hype</a></h5>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <div class="container footer">
+        <div class="row mt-12">
+            <div class="col-sm-3">
+                <h6><a href="mike_hw1.html">Home</a></h6>
+            </div>
+            <div class="col-md-6">
+                <p class="md-12">All content created for KIEI-451 Class Homework Assignment.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

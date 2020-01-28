@@ -1,0 +1,164 @@
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', cursive;
+}
+h1.titlepage {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', cursive;
+}
+
+p{
+    text-align: center;
+}
+
+
+h2{
+    font-family: 'Oswald', cursive;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.categories {
+    font-size: 40px;
+    color: darkblue;
+    text-align: center;
+}
+
+body {
+    background-color:#F8F8FF;
+
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 100px; /* Margin bottom by footer height */
+    /* height: 100%; */
+    /*background-image: url(embiid_color.jpg);*/
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+
+.twitterborder {
+    text-align: center;
+    background-color: #F8F8FF;
+    /*background-image: url(embiid_color.jpg);*/
+}
+.table {
+    display:table;
+    height: 100%;
+    width: 100%;
+    background-color: :#F8F8FF;
+    font-family: 'Bangers', cursive;
+    /*background-image: url(embiid_color.jpg);*/
+}
+.table-cell {
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(datastream2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    min-height: 300px;
+  }
+
+  .jumbotron_basketball {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(simmons_dunk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .jumbotron_econ {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(fed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     min-height: 600px; 
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  h1.finance{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+
+  h1.econ{
+    margin-bottom: 20px;
+}
+
+.tradingview-widget-container{
+    margin-top: 20px;
+}
+
+  .footer{
+    background-color: #F8F8FF;
+    border-top: 1px solid black;
+    bottom:0;
+    /* width:100%; */
+    position: absolute;    
+    /* margin-right: -100px;
+    padding-right: -15px; */
+    
+  }
+
+ 
+.container, .container-sm{
+    max-width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+ 
+
+
+  .btn-outline-info{
+      border-color: darkblue;
+      color: black;
+  }
+
+  .btn-outline-info:hover{
+    border-color: black;
+    color: black;
+    background-image: url("matrix_gif.gif");
+}
+
+.carousel {
+    width:100%;
+    height:600px;
+    text-align: center;
+  }
+
+
+
+  /* @media (max-width: 12450px) { } */
+
+
+
+
+
+

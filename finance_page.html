@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Dosis|Oswald|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Your own CSS -->
+    <link rel="stylesheet" href="analytics.css">
+
+    <title>Hello world!</title>
+</head>
+
+<body>
+    <!-- Your stuff goes here -->
+
+
+      <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Datalytics<i class="fas fa-cog fa-spin"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="mike_hw1.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="finance_page.html">Finance & Economy</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="bitcoin.html">Has Bitcoin replaced the dollar yet?</a>
+          </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sports
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="basketball.html">Basketball</a>
+    
+          </div>
+        </li>
+      </ul>
+      <div class="navbar-nav ml-auto">
+        <a class="btn btn-outline-info" href="give_data.html">Give Me Your Data</a>
+      </div>
+    </div>
+  </nav>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron_econ jumbotron-fluid vertical-center">
+        <div class="container">
+            <h1 class="econ">Finance & Economy</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="econ">Macroeconomic Data</h1>
+
+            </div>
+        </div>
+
+        <div class="row mt-12">
+            <div class="col-lg-6 text-center">
+                <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=pZh9&width=500&height=475"
+                    scrolling="no" frameborder="0" style="overflow:hidden; width:500px; height:525px;"
+                    allowTransparency="true" loading="eager"></iframe>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=lLBC&width=500&height=475"
+                    scrolling="no" frameborder="0" style="overflow:hidden; width:500px; height:525px;"
+                    allowTransparency="true" loading="eager"></iframe>
+            </div>
+        </div>
+
+        <div class="row mt-12">
+            <div class="col-lg-6 text-center">
+                <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=q0zI&width=500&height=475"
+                    scrolling="no" frameborder="0" style="overflow:hidden; width:500px; height:525px;"
+                    allowTransparency="true" loading="eager"></iframe>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=nqdy&width=500&height=475"
+                    scrolling="no" frameborder="0" style="overflow:hidden; width:500px; height:525px;"
+                    allowTransparency="true" loading="eager"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="finance">Financial Data</h1>
+
+            </div>
+        </div>
+
+
+        <!-- Stocks -->
+        <div class="col md-12">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_c7963"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-GOOG/"
+                        rel="noopener" target="_blank"><span class="blue-text">GOOG Chart</span></a> by TradingView
+                </div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                        {
+                            "width": 980,
+                            "height": 610,
+                            "symbol": "NASDAQ:GOOG",
+                            "interval": "D",
+                            "timezone": "Etc/UTC",
+                            "theme": "light",
+                            "style": "2",
+                            "locale": "en",
+                            "toolbar_bg": "#f1f3f6",
+                            "enable_publishing": false,
+                            "allow_symbol_change": true,
+                            "news": [
+                                "headlines"
+                            ],
+                            "container_id": "tradingview_c7963"
+                        }
+                    );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>Other Economics and Finance Links</h2>
+        </div>
+        <div class="row mt-6">
+            <div class="col-sm-4 text-center">
+                <h1><i class="fas fa-user-graduate"></i></h1>
+                <h5><a href="https://www.brookings.edu/program/economic-studies/" target="_blank">Brookings</a></h5>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <h1><i class="fas fa-landmark"></i></h1>
+                <h5><a href="https://www.federalreserve.gov/econres/notes/feds-notes/default.htm" target="_blank">FEDS Notes</a></h5>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <h1><i class="fas fa-chart-pie"></i></h1>
+                <h5><a href="https://data.nber.org/new.html" target="_blank">NBER</a></h5>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+  <div class="container footer">
+    <div class="row mt-12">
+      <div class="col-sm-3">
+        <h6><a href="mike_hw1.html">Home</a></h6>
+      </div>
+      <div class="col-md-6">
+        <p class="md-12">All content created for KIEI-451 Class Homework Assignment.</p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- This is a test -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
